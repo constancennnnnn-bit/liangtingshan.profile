@@ -616,509 +616,548 @@
         </div>
     </section>
 
-    <!-- SECTION 03: AI PROJECTS -->
-    <section id="ai-projects" class="min-h-screen py-28 px-6 md:px-16 lg:px-24 border-t border-gray-100 max-w-7xl mx-auto flex flex-col justify-center">
-        <!-- Section Header -->
-        <div class="flex items-center space-x-3 mb-8">
-            <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">03</span>
-            <h2 class="text-2xl font-light text-gray-900 tracking-tight">AI Projects</h2>
-        </div>
+    <!-- SECTION 03: AI PROJECTS -->
+    <section id="ai-projects" class="min-h-screen py-28 px-6 md:px-16 lg:px-24 border-t border-gray-100 max-w-7xl mx-auto flex flex-col justify-center">
+        <!-- Section Header -->
+        <div class="flex items-center space-x-3 mb-8">
+            <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">03</span>
+            <h2 class="text-2xl font-light text-gray-900 tracking-tight">AI Projects</h2>
+        </div>
 
-        <!-- Main Single-Column Vertical Stack Layout (Referencing user provided mockup) -->
-        <div class="space-y-6 max-w-5xl">
-            <!-- Tags Header -->
-            <div class="flex items-center space-x-3 flex-wrap gap-y-2">
-                <span class="px-3 py-1 rounded bg-gray-100 text-gray-600 text-xs font-mono">2026.04 - 2026.05 | 独立实践项目</span>
-                <span class="px-3 py-1 rounded bg-burgundy-light text-burgundy text-xs font-mono font-medium border border-burgundy/20 inline-flex items-center">
-                    <i class="fa-solid fa-diagram-project mr-1.5 text-xs"></i>n8n Workflow
-                </span>
-            </div>
+        <!-- Main Single-Column Vertical Stack Layout (Referencing user provided mockup) -->
+        <div class="space-y-6 max-w-5xl">
+            <!-- Tags Header -->
+            <div class="flex items-center space-x-3 flex-wrap gap-y-2">
+                <span class="px-3 py-1 rounded bg-gray-100 text-gray-600 text-xs font-mono">2026.04 - 2026.05 | 独立实践项目</span>
+                <span class="px-3 py-1 rounded bg-burgundy-light text-burgundy text-xs font-mono font-medium border border-burgundy/20 inline-flex items-center">
+                    <i class="fa-solid fa-diagram-project mr-1.5 text-xs"></i>n8n Workflow
+                </span>
+            </div>
 
-            <!-- Main Title -->
-            <h3 class="text-2xl sm:text-3xl font-medium text-gray-900 tracking-tight">
-                AI 内容资讯采集自动化工作流
-            </h3>
+            <!-- Main Title -->
+            <h3 class="text-2xl sm:text-3xl font-medium text-gray-900 tracking-tight">
+                AI 内容资讯采集自动化工作流
+            </h3>
 
-            <!-- Background and Core Contributions text -->
-            <div class="space-y-2.5 text-xs sm:text-sm leading-relaxed text-gray-600 font-light pt-1">
-                <p><strong class="font-medium text-gray-900">背景：</strong>针对每日耗费大量时间的行业资讯搜集、去重筛选及日报整理等高频重复性工作，主动探索 AI 与自动化工具落地。</p>
-                <p><strong class="font-medium text-gray-900">核心贡献：</strong>基于 n8n 搭建自动化工作流节点编排，设计 AI 提示词与二次加工逻辑，实现资讯自动采集、多维标签分类、选题推荐及结构化简报生成。</p>
-            </div>
+            <!-- Background and Core Contributions text -->
+            <div class="space-y-2.5 text-xs sm:text-sm leading-relaxed text-gray-600 font-light pt-1">
+                <p><strong class="font-medium text-gray-900">背景：</strong>针对每日耗费大量时间的行业资讯搜集、去重筛选及日报整理等高频重复性工作，主动探索 AI 与自动化工具落地。</p>
+                <p><strong class="font-medium text-gray-900">核心贡献：</strong>基于 n8n 搭建自动化工作流节点编排，设计 AI 提示词与二次加工逻辑，实现资讯自动采集、多维标签分类、选题推荐及结构化简报生成。</p>
+            </div>
 
-            <!-- Action Buttons Row: RUN WORKFLOW & n8n Link Box -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch pt-2 pb-4">
-                <!-- Left: Run Workflow Button -->
-                <div>
-                    <button id="run-wf-btn" onclick="startWorkflowSimulation()" class="w-full py-3.5 px-6 rounded-full bg-burgundy text-white hover:bg-burgundy/90 transition-all text-xs sm:text-sm font-medium inline-flex items-center justify-center shadow-sm cursor-pointer">
-                        <i class="fa-solid fa-play text-xs mr-2"></i> RUN WORKFLOW (运行演示)
-                    </button>
-                    <div class="text-[11px] font-mono text-gray-400 mt-2 pl-2">
-                        注：本模块为真实工作流运行逻辑与结果的可视化演示
-                    </div>
-                </div>
+            <!-- Action Buttons Row: RUN WORKFLOW & n8n Link Box -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch pt-2 pb-4">
+                <!-- Left: Run Workflow Button -->
+                <div>
+                    <button id="run-wf-btn" onclick="startWorkflowSimulation()" class="w-full py-3.5 px-6 rounded-full bg-burgundy text-white hover:bg-burgundy/90 transition-all text-xs sm:text-sm font-medium inline-flex items-center justify-center shadow-sm cursor-pointer">
+                        <i class="fa-solid fa-play text-xs mr-2"></i> RUN WORKFLOW (运行演示)
+                    </button>
+                    <div class="text-[11px] font-mono text-gray-400 mt-2 pl-2">
+                        注：本模块为真实工作流运行逻辑与结果的可视化演示
+                    </div>
+                </div>
 
-                <!-- Right: n8n Workflow Link Box -->
-                <a href="https://ttn.app.n8n.cloud/workflow/bJj8a2ePwpx1d3iZ" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-2xl border border-gray-200 bg-gray-50/80 hover:bg-white hover:border-burgundy hover:shadow-md transition-all duration-300 flex items-center justify-between cursor-pointer">
-                    <div class="flex items-center space-x-3">
-                        <div class="w-9 h-9 rounded-xl bg-burgundy/10 flex items-center justify-center text-burgundy group-hover:bg-burgundy group-hover:text-white transition-colors flex-shrink-0">
-                            <i class="fa-solid fa-diagram-project text-sm"></i>
-                        </div>
-                        <div>
-                            <div class="font-medium text-gray-900 group-hover:text-burgundy transition-colors text-xs sm:text-sm">
-                                点击查看真实 n8n 工作流
-                            </div>
-                            <div class="text-[10px] sm:text-xs text-gray-400 font-mono mt-0.5">n8n Blueprint & Flow Canvas</div>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square text-gray-400 group-hover:text-burgundy text-xs sm:text-sm transition-colors ml-2"></i>
-                </a>
-            </div>
+                <!-- Right: n8n Workflow Link Box with Image Preview -->
+                <a href="https://ttn.app.n8n.cloud/workflow/bJj8a2ePwpx1d3iZ" target="_blank" rel="noopener noreferrer" class="group p-3 rounded-2xl border border-gray-200 bg-gray-50/80 hover:bg-white hover:border-burgundy hover:shadow-md transition-all duration-300 flex flex-col justify-between cursor-pointer">
+                    <!-- Top Image Preview -->
+                    <div class="w-full h-32 sm:h-36 rounded-xl overflow-hidden border border-gray-200/80 bg-gray-900/5 relative mb-2.5">
+                        <img src="屏幕截图 2026-09-19 164353.png" alt="n8n 工作流结构图" class="w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-black/60 backdrop-blur-xs text-[10px] font-mono text-white/90">
+                            n8n Blueprint <i class="fa-solid fa-arrow-up-right-from-square text-[8px] ml-1"></i>
+                        </div>
+                    </div>
 
-            <!-- Workflow Visualizer Dark Box (Full Width below buttons) -->
-            <div class="p-6 rounded-2xl bg-gray-900 text-white relative overflow-hidden">
-                <div class="flex justify-between items-center border-b border-gray-800 pb-3 mb-4">
-                    <div class="flex items-center space-x-2">
-                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                        <span class="text-xs font-mono uppercase tracking-wider text-gray-300">WORKFLOW EXECUTION VISUALIZER</span>
-                    </div>
-                    <span class="text-[10px] font-mono text-gray-400">点击任意节点查看说明</span>
-                </div>
+                    <!-- Bottom Grey Text aligned with image -->
+                    <div class="flex items-center justify-between px-1">
+                        <span class="text-xs text-gray-500 font-medium group-hover:text-burgundy transition-colors flex items-center">
+                            <i class="fa-solid fa-diagram-project text-burgundy/80 mr-1.5 text-xs"></i>
+                            点击查看真实 n8n 工作流
+                        </span>
+                        <span class="text-[10px] font-mono text-gray-400 group-hover:text-burgundy transition-colors">
+                            n8n.cloud <i class="fa-solid fa-chevron-right text-[8px] ml-0.5"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
 
-                <!-- 8 Clickable Flowchart Nodes -->
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mb-4">
-                    <!-- Node 0 -->
-                    <div id="wf-node-0" onclick="showNodeDetail(0)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>01 / 来源</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">定时触发</div>
-                    </div>
+            <!-- Workflow Visualizer Dark Box (Full Width below buttons) -->
+            <div class="p-6 rounded-2xl bg-gray-900 text-white relative overflow-hidden">
+                <div class="flex justify-between items-center border-b border-gray-800 pb-3 mb-4">
+                    <div class="flex items-center space-x-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                        <span class="text-xs font-mono uppercase tracking-wider text-gray-300">N8N WORKFLOW EXECUTION VISUALIZER</span>
+                    </div>
+                    <span class="text-[10px] font-mono text-gray-400">点击节点查看对应 n8n 节点逻辑</span>
+                </div>
 
-                    <!-- Node 1 -->
-                    <div id="wf-node-1" onclick="showNodeDetail(1)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>02 / 收集</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">资讯采集</div>
-                    </div>
+                <!-- 8 Clickable Flowchart Nodes matched with screenshot -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mb-4">
+                    <!-- Node 0 -->
+                    <div id="wf-node-0" onclick="showNodeDetail(0)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>01 / TRIGGER</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Schedule Trigger</div>
+                    </div>
 
-                    <!-- Node 2 -->
-                    <div id="wf-node-2" onclick="showNodeDetail(2)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>03 / 正常化</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">信息标准化</div>
-                    </div>
+                    <!-- Node 1 -->
+                    <div id="wf-node-1" onclick="showNodeDetail(1)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>02 / FEEDS</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Read Feeds & Merge</div>
+                    </div>
 
-                    <!-- Node 3 -->
-                    <div id="wf-node-3" onclick="showNodeDetail(3)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>04 / 分析</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">AI 资讯分析</div>
-                    </div>
+                    <!-- Node 2 -->
+                    <div id="wf-node-2" onclick="showNodeDetail(2)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>03 / CLEAN</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Normalize Articles</div>
+                    </div>
 
-                    <!-- Node 4 -->
-                    <div id="wf-node-4" onclick="showNodeDetail(4)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>05 / 筛选</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">高价值筛选</div>
-                    </div>
+                    <!-- Node 3 -->
+                    <div id="wf-node-3" onclick="showNodeDetail(3)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>04 / AI ANALYZE</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Analyze Article (LLM)</div>
+                    </div>
 
-                    <!-- Node 5 -->
-                    <div id="wf-node-5" onclick="showNodeDetail(5)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>06 / 产生</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">AI 内容生成</div>
-                    </div>
+                    <!-- Node 4 -->
+                    <div id="wf-node-4" onclick="showNodeDetail(4)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>05 / FILTER</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Filter Worthy Articles</div>
+                    </div>
 
-                    <!-- Node 6 -->
-                    <div id="wf-node-6" onclick="showNodeDetail(6)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>07 / 去重</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">重复检测</div>
-                    </div>
+                    <!-- Node 5 -->
+                    <div id="wf-node-5" onclick="showNodeDetail(5)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>06 / AI GEN</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Generate Content</div>
+                    </div>
 
-                    <!-- Node 7 -->
-                    <div id="wf-node-7" onclick="showNodeDetail(7)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
-                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
-                            <span>08 / 入库</span>
-                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
-                        </div>
-                        <div class="text-xs font-medium text-gray-200 mt-1">内容入库</div>
-                    </div>
-                </div>
+                    <!-- Node 6 -->
+                    <div id="wf-node-6" onclick="showNodeDetail(6)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>07 / DEDUP</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">If Row Does Not Exist</div>
+                    </div>
 
-                <!-- Node Detail Disclosure Container -->
-                <div id="node-info-card" class="p-4 rounded-xl bg-gray-800/80 border border-gray-700/80 text-xs">
-                    <div class="flex items-center space-x-2 text-burgundy font-mono text-[11px] mb-1 font-semibold">
-                        <i class="fa-solid fa-gear text-xs"></i>
-                        <span id="node-info-title">定时触发｜定时触发</span>
-                    </div>
-                    <p id="node-info-desc" class="text-gray-300 font-light leading-relaxed">
-                        按设定时间自动启动工作流。
-                    </p>
-                </div>
+                    <!-- Node 7 -->
+                    <div id="wf-node-7" onclick="showNodeDetail(7)" class="cursor-pointer p-3 rounded-xl border border-gray-800 bg-gray-800/50 hover:bg-gray-800 transition-all text-left group">
+                        <div class="text-[9px] font-mono text-gray-400 uppercase tracking-widest flex justify-between">
+                            <span>08 / OUTPUT</span>
+                            <i class="fa-solid fa-circle-info opacity-0 group-hover:opacity-100 transition-opacity text-burgundy"></i>
+                        </div>
+                        <div class="text-xs font-medium text-gray-200 mt-1 truncate">Insert Row & Write to Feishu</div>
+                    </div>
+                </div>
 
-                <!-- Animated Execution Logs Feed Panel -->
-                <div class="mt-4 pt-3 border-t border-gray-800 flex flex-col space-y-1.5 text-[11px] font-mono">
-                    <div class="text-gray-400 flex justify-between items-center text-[10px] mb-1">
-                        <span>EXECUTION LOGS / 动态演示日志</span>
-                        <span id="wf-status-tag" class="px-2 py-0.5 rounded bg-gray-800 text-gray-400">IDLE</span>
-                    </div>
-                    <div id="log-feed" class="max-h-32 overflow-y-auto space-y-1 font-mono text-gray-300 pr-1">
-                        <div class="text-gray-500 italic">点击 "RUN WORKFLOW" 启动流程执行可视化...</div>
-                    </div>
-                </div>
-            </div>
+                <!-- Node Detail Disclosure Container -->
+                <div id="node-info-card" class="p-4 rounded-xl bg-gray-800/80 border border-gray-700/80 text-xs">
+                    <div class="flex items-center space-x-2 text-burgundy font-mono text-[11px] mb-1 font-semibold">
+                        <i class="fa-solid fa-gear text-xs"></i>
+                        <span id="node-info-title">01. Schedule Trigger (定时触发)</span>
+                    </div>
+                    <p id="node-info-desc" class="text-gray-300 font-light leading-relaxed">
+                        通过 Schedule Trigger 设定定时拉起规则，自动化启动拉取多源拉美及跨境商业 RSS 资讯流。
+                    </p>
+                </div>
 
-            <!-- Structured OUTPUT Card -->
-            <div class="p-6 rounded-2xl bg-white border border-gray-200/80 shadow-sm space-y-6">
-                <!-- Card Top Header -->
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-gray-100 pb-4 gap-3">
-                    <div>
-                        <span class="text-xs font-mono text-burgundy font-semibold uppercase tracking-wider block">CONTENT DATABASE / 内容数据库 (结构化入库数据)</span>
-                        <span class="text-[10px] text-gray-400 font-light">高频资讯自动化二次加工与数据库结构化存储</span>
-                    </div>
-                    <div class="flex items-center gap-2 text-[10px] font-mono text-gray-500 bg-gray-50 border border-gray-200/80 px-2.5 py-1 rounded-lg self-start sm:self-auto">
-                        <i class="fa-solid fa-database text-burgundy"></i>
-                        <span>20260910</span>
-                        <span class="text-emerald-600 font-medium font-sans">● 已成功入库</span>
-                    </div>
-                </div>
+                <!-- Animated Execution Logs Feed Panel -->
+                <div class="mt-4 pt-3 border-t border-gray-800 flex flex-col space-y-1.5 text-[11px] font-mono">
+                    <div class="text-gray-400 flex justify-between items-center text-[10px] mb-1">
+                        <span>EXECUTION LOGS / 真实工作流运行日志</span>
+                        <span id="wf-status-tag" class="px-2 py-0.5 rounded bg-gray-800 text-gray-400">IDLE</span>
+                    </div>
+                    <div id="log-feed" class="max-h-32 overflow-y-auto space-y-1 font-mono text-gray-300 pr-1">
+                        <div class="text-gray-500 italic">点击 "RUN WORKFLOW" 启动流程执行可视化...</div>
+                    </div>
+                </div>
+            </div>
 
-                <!-- Single Content Database Record View -->
-                <div class="space-y-4 text-xs">
-                    
-                    <!-- 1. 标题 (Title) -->
-                    <div class="p-4 bg-burgundy-light/20 border border-burgundy/15 rounded-xl">
-                        <div class="text-[10px] font-mono text-burgundy font-semibold uppercase tracking-wider mb-1 flex items-center justify-between">
-                            <span>标题</span>
-                        </div>
-                        <h4 class="text-base font-medium text-gray-900 leading-snug">
-                            巴西取消50美元以下国际购物20%进口税，助力跨境电商发展
-                        </h4>
-                    </div>
+            <!-- Structured OUTPUT Card -->
+            <div class="p-6 rounded-2xl bg-white border border-gray-200/80 shadow-sm space-y-6">
+                <!-- Card Top Header -->
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-gray-100 pb-4 gap-3">
+                    <div>
+                        <span class="text-xs font-mono text-burgundy font-semibold uppercase tracking-wider block">CONTENT DATABASE / 内容数据库 (结构化入库数据)</span>
+                        <span class="text-[10px] text-gray-400 font-light">高频资讯自动化二次加工与数据库结构化存储</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-[10px] font-mono text-gray-500 bg-gray-50 border border-gray-200/80 px-2.5 py-1 rounded-lg self-start sm:self-auto">
+                        <i class="fa-solid fa-database text-burgundy"></i>
+                        <span>20260910</span>
+                        <span class="text-emerald-600 font-medium font-sans">● 已成功入库</span>
+                    </div>
+                </div>
 
-                    <!-- Grid for 4 Meta Fields -->
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                        <!-- 2. 类别 -->
-                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
-                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">类别</div>
-                            <div class="font-medium text-gray-900 flex items-center">
-                                <span class="w-2 h-2 rounded-full bg-burgundy mr-1.5"></span>
-                                政策法规
-                            </div>
-                        </div>
+                <!-- Single Content Database Record View -->
+                <div class="space-y-4 text-xs">
+                    
+                    <!-- 1. 标题 (Title) -->
+                    <div class="p-4 bg-burgundy-light/20 border border-burgundy/15 rounded-xl">
+                        <div class="text-[10px] font-mono text-burgundy font-semibold uppercase tracking-wider mb-1 flex items-center justify-between">
+                            <span>标题</span>
+                        </div>
+                        <h4 class="text-base font-medium text-gray-900 leading-snug">
+                            巴西取消50美元以下国际购物20%进口税，助力跨境电商发展
+                        </h4>
+                    </div>
 
-                        <!-- 3. 重要性 -->
-                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
-                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">重要性</div>
-                            <div class="font-bold text-burgundy font-mono text-sm">
-                                9 <span class="text-[10px] text-gray-400 font-normal">/ 10 (极高)</span>
-                            </div>
-                        </div>
+                    <!-- Grid for 4 Meta Fields -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                        <!-- 2. 类别 -->
+                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
+                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">类别</div>
+                            <div class="font-medium text-gray-900 flex items-center">
+                                <span class="w-2 h-2 rounded-full bg-burgundy mr-1.5"></span>
+                                政策法规
+                            </div>
+                        </div>
 
-                        <!-- 4. 跨境相关性 -->
-                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
-                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">跨境相关性</div>
-                            <div class="font-medium text-gray-900">
-                                高 <span class="text-gray-400 font-light text-[10px]">(拉美/巴西线)</span>
-                            </div>
-                        </div>
+                        <!-- 3. 重要性 -->
+                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
+                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">重要性</div>
+                            <div class="font-bold text-burgundy font-mono text-sm">
+                                9 <span class="text-[10px] text-gray-400 font-normal">/ 10 (极高)</span>
+                            </div>
+                        </div>
 
-                        <!-- 5. 是否值得报道 -->
-                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
-                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">是否值得报道</div>
-                            <div>
-                                <span class="inline-flex items-center px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-mono font-medium">
-                                    ✓ 是 (True)
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                        <!-- 4. 跨境相关性 -->
+                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
+                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">跨境相关性</div>
+                            <div class="font-medium text-gray-900">
+                                高 <span class="text-gray-400 font-light text-[10px]">(拉美/巴西线)</span>
+                            </div>
+                        </div>
 
-                    <!-- 6. 摘要 (Summary) -->
-                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
-                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex items-center">
-                            <i class="fa-solid fa-file-lines text-burgundy text-[10px] mr-1.5"></i>
-                            <span>摘要</span>
-                        </div>
-                        <p class="text-gray-700 font-light leading-relaxed">
-                            巴西总统卢拉于2026年9月10日签署法律，取消了对价值不超过50美元的国际网购商品的20%进口税。这项新法案旨在简化在线购物的税收政策，促进跨境电商的发展。此举将使消费者在购买小额商品时享受更低的税负，从而刺激消费。
-                        </p>
-                    </div>
+                        <!-- 5. 是否值得报道 -->
+                        <div class="p-3 bg-gray-50/80 rounded-xl border border-gray-100">
+                            <div class="text-[10px] font-mono text-gray-400 uppercase mb-1">是否值得报道</div>
+                            <div>
+                                <span class="inline-flex items-center px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-mono font-medium">
+                                    ✓ 是 (True)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <!-- 7. 商业影响 (Business Impact) -->
-                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
-                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex items-center">
-                            <i class="fa-solid fa-chart-line text-burgundy text-[10px] mr-1.5"></i>
-                            <span>商业影响</span>
-                        </div>
-                        <p class="text-gray-700 font-light leading-relaxed">
-                            这一政策将显著降低跨境电商卖家的成本，尤其是针对小额商品的销售，可能会吸引更多消费者进行跨境购物，提升销售额。
-                        </p>
-                    </div>
+                    <!-- 6. 摘要 (Summary) -->
+                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
+                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex items-center">
+                            <i class="fa-solid fa-file-lines text-burgundy text-[10px] mr-1.5"></i>
+                            <span>摘要</span>
+                        </div>
+                        <p class="text-gray-700 font-light leading-relaxed">
+                            巴西总统卢拉于2026年9月10日签署法律，取消了对价值不超过50美元的国际网购商品的20%进口税。这项新法案旨在简化在线购物的税收政策，促进跨境电商的发展。此举将使消费者在购买小额商品时享受更低的税负，从而刺激消费。
+                        </p>
+                    </div>
 
-                    <!-- 8. 选题角度 (Topic Angles) -->
-                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
-                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex items-center">
-                            <i class="fa-solid fa-lightbulb text-burgundy text-[10px] mr-1.5"></i>
-                            <span>选题角度</span>
-                        </div>
-                        <ul class="space-y-1.5 text-gray-800 font-light">
-                            <li class="flex items-start space-x-2 bg-white p-2 rounded-lg border border-gray-100">
-                                <span class="text-burgundy font-mono text-[10px] font-semibold mt-0.5">01.</span>
-                                <span>新法案对巴西跨境电商市场的影响分析</span>
-                            </li>
-                            <li class="flex items-start space-x-2 bg-white p-2 rounded-lg border border-gray-100">
-                                <span class="text-burgundy font-mono text-[10px] font-semibold mt-0.5">02.</span>
-                                <span>如何利用税收政策促进小额商品销售</span>
-                            </li>
-                            <li class="flex items-start space-x-2 bg-white p-2 rounded-lg border border-gray-100">
-                                <span class="text-burgundy font-mono text-[10px] font-semibold mt-0.5">03.</span>
-                                <span>巴西消费者对跨境电商的接受度变化</span>
-                            </li>
-                        </ul>
-                    </div>
+                    <!-- 7. 商业影响 (Business Impact) -->
+                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
+                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex items-center">
+                            <i class="fa-solid fa-chart-line text-burgundy text-[10px] mr-1.5"></i>
+                            <span>商业影响</span>
+                        </div>
+                        <p class="text-gray-700 font-light leading-relaxed">
+                            这一政策将显著降低跨境电商卖家的成本，尤其是针对小额商品的销售，可能会吸引更多消费者进行跨境购物，提升销售额。
+                        </p>
+                    </div>
 
-                    <!-- 9. 内容 (Content) -->
-                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
-                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex justify-between items-center">
-                            <span class="flex items-center">
-                                <i class="fa-solid fa-align-left text-burgundy text-[10px] mr-1.5"></i>
-                                <span>内容 (全文)</span>
-                            </span>
-                        </div>
-                        <div class="bg-white p-4 rounded-xl border border-gray-100 text-gray-700 font-light leading-relaxed space-y-3 max-h-80 overflow-y-auto text-[11px] shadow-2xs">
-                            <p>巴西政府正式推行新关税和进口税政策，取消了50美元以下跨境商品的20%进口税...</p>
-                        </div>
-                    </div>
+                    <!-- 8. 选题角度 (Topic Angles) -->
+                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
+                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex items-center">
+                            <i class="fa-solid fa-lightbulb text-burgundy text-[10px] mr-1.5"></i>
+                            <span>选题角度</span>
+                        </div>
+                        <ul class="space-y-1.5 text-gray-800 font-light">
+                            <li class="flex items-start space-x-2 bg-white p-2 rounded-lg border border-gray-100">
+                                <span class="text-burgundy font-mono text-[10px] font-semibold mt-0.5">01.</span>
+                                <span>新法案对巴西跨境电商市场的影响分析</span>
+                            </li>
+                            <li class="flex items-start space-x-2 bg-white p-2 rounded-lg border border-gray-100">
+                                <span class="text-burgundy font-mono text-[10px] font-semibold mt-0.5">02.</span>
+                                <span>如何利用税收政策促进小额商品销售</span>
+                            </li>
+                            <li class="flex items-start space-x-2 bg-white p-2 rounded-lg border border-gray-100">
+                                <span class="text-burgundy font-mono text-[10px] font-semibold mt-0.5">03.</span>
+                                <span>巴西消费者对跨境电商的接受度变化</span>
+                            </li>
+                        </ul>
+                    </div>
 
-                </div>
-            </div>
+                    <!-- 9. 内容 (Content) -->
+                    <div class="p-3.5 bg-gray-50/80 rounded-xl border border-gray-100">
+                        <div class="text-[10px] font-mono text-gray-400 uppercase mb-1.5 flex justify-between items-center">
+                            <span class="flex items-center">
+                                <i class="fa-solid fa-align-left text-burgundy text-[10px] mr-1.5"></i>
+                                <span>内容 (全文)</span>
+                            </span>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-gray-100 text-gray-700 font-light leading-relaxed space-y-3 max-h-80 overflow-y-auto text-[11px] shadow-2xs">
+                            <p>巴西政府正式推行新关税和进口税政策，取消了50美元以下跨境商品的20%进口税...</p>
+                        </div>
+                    </div>
 
-        </div>
-    </section>
+                </div>
+            </div>
 
-    <!-- SECTION 04: CONTACT ME -->
-    <section id="contact" class="min-h-screen py-28 px-6 md:px-16 lg:px-24 border-t border-gray-100 max-w-7xl mx-auto flex flex-col justify-center items-center text-center relative select-none">
-        <!-- Section Header -->
-        <div class="w-full flex items-center justify-start space-x-3 mb-16">
-            <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">04</span>
-            <h2 class="text-2xl font-light text-gray-900 tracking-tight">Contact me</h2>
-        </div>
+        </div>
+    </section>
 
-        <!-- Contact Items List (Clickable to copy) -->
-        <div class="flex flex-col items-center space-y-8 text-center max-w-2xl w-full my-4">
-            <!-- Email -->
-            <div onclick="copyContact('1044677068@qq.com')" class="group cursor-pointer flex flex-wrap items-baseline justify-center space-x-3 sm:space-x-4 p-3 rounded-2xl hover:bg-gray-50/80 transition-all duration-300 w-full border border-transparent hover:border-gray-200/60">
-                <span class="text-xs sm:text-sm font-mono text-gray-400 uppercase tracking-widest">EMAIL:</span>
-                <span class="text-xl sm:text-2xl md:text-3xl font-mono font-medium text-gray-900 group-hover:text-burgundy transition-colors">1044677068@qq.com</span>
-            </div>
+    <!-- SECTION 04: CONTACT ME -->
+    <section id="contact" class="min-h-screen py-28 px-6 md:px-16 lg:px-24 border-t border-gray-100 max-w-7xl mx-auto flex flex-col justify-center items-center text-center relative select-none">
+        <!-- Section Header -->
+        <div class="w-full flex items-center justify-start space-x-3 mb-16">
+            <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">04</span>
+            <h2 class="text-2xl font-light text-gray-900 tracking-tight">Contact me</h2>
+        </div>
 
-            <!-- Tel -->
-            <div onclick="copyContact('18675761431')" class="group cursor-pointer flex flex-wrap items-baseline justify-center space-x-3 sm:space-x-4 p-3 rounded-2xl hover:bg-gray-50/80 transition-all duration-300 w-full border border-transparent hover:border-gray-200/60">
-                <span class="text-xs sm:text-sm font-mono text-gray-400 uppercase tracking-widest">TEL:</span>
-                <span class="text-xl sm:text-2xl md:text-3xl font-mono font-medium text-gray-900 group-hover:text-burgundy transition-colors">186 7576 1431</span>
-            </div>
+        <!-- Contact Items List (Clickable to copy) -->
+        <div class="flex flex-col items-center space-y-8 text-center max-w-2xl w-full my-4">
+            <!-- Email -->
+            <div onclick="copyContact('1044677068@qq.com')" class="group cursor-pointer flex flex-wrap items-baseline justify-center space-x-3 sm:space-x-4 p-3 rounded-2xl hover:bg-gray-50/80 transition-all duration-300 w-full border border-transparent hover:border-gray-200/60">
+                <span class="text-xs sm:text-sm font-mono text-gray-400 uppercase tracking-widest">EMAIL:</span>
+                <span class="text-xl sm:text-2xl md:text-3xl font-mono font-medium text-gray-900 group-hover:text-burgundy transition-colors">1044677068@qq.com</span>
+            </div>
 
-            <!-- WeChat -->
-            <div onclick="copyContact('_ttnnn')" class="group cursor-pointer flex flex-wrap items-baseline justify-center space-x-3 sm:space-x-4 p-3 rounded-2xl hover:bg-gray-50/80 transition-all duration-300 w-full border border-transparent hover:border-gray-200/60">
-                <span class="text-xs sm:text-sm font-mono text-gray-400 uppercase tracking-widest">WECHAT:</span>
-                <span class="text-xl sm:text-2xl md:text-3xl font-mono font-medium text-gray-900 group-hover:text-burgundy transition-colors">_ttnnn</span>
-            </div>
-        </div>
+            <!-- Tel -->
+            <div onclick="copyContact('18675761431')" class="group cursor-pointer flex flex-wrap items-baseline justify-center space-x-3 sm:space-x-4 p-3 rounded-2xl hover:bg-gray-50/80 transition-all duration-300 w-full border border-transparent hover:border-gray-200/60">
+                <span class="text-xs sm:text-sm font-mono text-gray-400 uppercase tracking-widest">TEL:</span>
+                <span class="text-xl sm:text-2xl md:text-3xl font-mono font-medium text-gray-900 group-hover:text-burgundy transition-colors">186 7576 1431</span>
+            </div>
 
-        <!-- Copy Feedback Toast Notification -->
-        <div id="copy-toast" class="mt-8 h-8 flex items-center justify-center opacity-0 transition-all duration-300 transform translate-y-2 pointer-events-none">
-            <span class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-burgundy-light border border-burgundy/20 text-burgundy text-xs font-mono shadow-xs">
-                <i class="fa-solid fa-check text-[10px]"></i>
-                <span>复制成功，请联系我吧~</span>
-            </span>
-        </div>
-    </section>
+            <!-- WeChat -->
+            <div onclick="copyContact('_ttnnn')" class="group cursor-pointer flex flex-wrap items-baseline justify-center space-x-3 sm:space-x-4 p-3 rounded-2xl hover:bg-gray-50/80 transition-all duration-300 w-full border border-transparent hover:border-gray-200/60">
+                <span class="text-xs sm:text-sm font-mono text-gray-400 uppercase tracking-widest">WECHAT:</span>
+                <span class="text-xl sm:text-2xl md:text-3xl font-mono font-medium text-gray-900 group-hover:text-burgundy transition-colors">_ttnnn</span>
+            </div>
+        </div>
 
-    <script>
-        // Copy to Clipboard Handler
-        let copyToastTimeout;
-        function copyContact(text) {
-            try {
-                const textarea = document.createElement('textarea');
-                textarea.value = text;
-                textarea.style.position = 'fixed';
-                textarea.style.opacity = '0';
-                document.body.appendChild(textarea);
-                textarea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textarea);
-                
-                showCopyToast();
-            } catch (err) {
-                if (navigator.clipboard) {
-                    navigator.clipboard.writeText(text).then(() => {
-                        showCopyToast();
-                    });
-                }
-            }
-        }
+        <!-- Copy Feedback Toast Notification -->
+        <div id="copy-toast" class="mt-8 h-8 flex items-center justify-center opacity-0 transition-all duration-300 transform translate-y-2 pointer-events-none">
+            <span class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-burgundy-light border border-burgundy/20 text-burgundy text-xs font-mono shadow-xs">
+                <i class="fa-solid fa-check text-[10px]"></i>
+                <span>复制成功，请联系我吧~</span>
+            </span>
+        </div>
+    </section>
 
-        function showCopyToast() {
-            const toast = document.getElementById('copy-toast');
-            if (toast) {
-                toast.classList.remove('opacity-0', 'translate-y-2');
-                toast.classList.add('opacity-100', 'translate-y-0');
-                
-                clearTimeout(copyToastTimeout);
-                copyToastTimeout = setTimeout(() => {
-                    toast.classList.remove('opacity-100', 'translate-y-0');
-                    toast.classList.add('opacity-0', 'translate-y-2');
-                }, 2000);
-            }
-        }
+    <script>
+        // Copy to Clipboard Handler
+        let copyToastTimeout;
+        function copyContact(text) {
+            try {
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = '0';
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                
+                showCopyToast();
+            } catch (err) {
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(text).then(() => {
+                        showCopyToast();
+                    });
+                }
+            }
+        }
 
-        // Custom Frosted Glass Cursor movement
-        const cursor = document.getElementById('custom-cursor');
-        if (cursor) {
-            document.addEventListener('mousemove', (e) => {
-                cursor.style.left = e.clientX + 'px';
-                cursor.style.top = e.clientY + 'px';
-            });
+        function showCopyToast() {
+            const toast = document.getElementById('copy-toast');
+            if (toast) {
+                toast.classList.remove('opacity-0', 'translate-y-2');
+                toast.classList.add('opacity-100', 'translate-y-0');
+                
+                clearTimeout(copyToastTimeout);
+                copyToastTimeout = setTimeout(() => {
+                    toast.classList.remove('opacity-100', 'translate-y-0');
+                    toast.classList.add('opacity-0', 'translate-y-2');
+                }, 2000);
+            }
+        }
 
-            document.querySelectorAll('a, button, .glass-card-interactive, .hero-menu-container').forEach(el => {
-                el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
-                el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
-            });
-        }
+        // Custom Frosted Glass Cursor movement
+        const cursor = document.getElementById('custom-cursor');
+        if (cursor) {
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
 
-        // Switch Case Studies in MacBook Screen
-        function switchCase(caseId) {
-            // Hide all case views
-            const caseContents = document.querySelectorAll('.case-content');
-            caseContents.forEach(el => {
-                el.classList.add('hidden');
-                el.classList.remove('flex');
-            });
+            document.querySelectorAll('a, button, .glass-card-interactive, .hero-menu-container').forEach(el => {
+                el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+                el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+            });
+        }
 
-            // Show target case view
-            const targetCase = document.getElementById(`case-${caseId}`);
-            if (targetCase) {
-                targetCase.classList.remove('hidden');
-                targetCase.classList.add('flex');
-            }
+        // Switch Case Studies in MacBook Screen
+        function switchCase(caseId) {
+            // Hide all case views
+            const caseContents = document.querySelectorAll('.case-content');
+            caseContents.forEach(el => {
+                el.classList.add('hidden');
+                el.classList.remove('flex');
+            });
 
-            // Update interactive cards active state
-            ['wechat', 'video', 'xhs'].forEach(id => {
-                const card = document.getElementById(`card-${id}`);
-                if (card) {
-                    if (id === caseId) {
-                        card.classList.add('active');
-                    } else {
-                        card.classList.remove('active');
-                    }
-                }
-            });
-        }
+            // Show target case view
+            const targetCase = document.getElementById(`case-${caseId}`);
+            if (targetCase) {
+                targetCase.classList.remove('hidden');
+                targetCase.classList.add('flex');
+            }
 
-        // Node details data array for AI Project
-        const nodeData = [
-            { title: "01. 定时触发 (Schedule Trigger)", desc: "通过 Cron 或特定事件引擎（如每日 08:00）自动拉起流式任务，免去人工手动干预。" },
-            { title: "02. 资讯采集 (Data Ingestion)", desc: "通过 RSS / Web Scraping / API 抓取科技、跨境电商、财税及政策类实时源。" },
-            { title: "03. 信息标准化 (Normalization)", desc: "清洗 HTML 标签、格式化时间戳与源链接，将非结构化文本整理为统一 JSON Schema。" },
-            { title: "04. AI 资讯分析 (LLM Analysis)", desc: "调用 LLM 进行深度理解，提取关键词、行业类别及跨境业务相关度分数。" },
-            { title: "05. 高价值筛选 (Value Filter)", desc: "依据相关性得分与价值阈值过滤低质量/不相关资讯，实现高精度初筛。" },
-            { title: "06. AI 内容生成 (AI Content Gen)", desc: "自动撰写结构化摘要、商业影响评估及 3 个不同视角的小红书/公众号选题推荐。" },
-            { title: "07. 重复检测 (Deduplication)", desc: "基于向量余弦相似度或文本 MD5 算法比对近期已有记录，剔除同质化新闻。" },
-            { title: "08. 内容入库 (Database Ingestion)", desc: "将二次加工后的结构化高价值内容自动写入数据库，并实时推送提醒至运营团队。" }
-        ];
+            // Update interactive cards active state
+            ['wechat', 'video', 'xhs'].forEach(id => {
+                const card = document.getElementById(`card-${id}`);
+                if (card) {
+                    if (id === caseId) {
+                        card.classList.add('active');
+                    } else {
+                        card.classList.remove('active');
+                    }
+                }
+            });
+        }
 
-        function showNodeDetail(index) {
-            const data = nodeData[index];
-            if (!data) return;
-            const titleEl = document.getElementById('node-info-title');
-            const descEl = document.getElementById('node-info-desc');
-            if (titleEl) titleEl.innerText = data.title;
-            if (descEl) descEl.innerText = data.desc;
+        // Node details data array for AI Project
+        const nodeData = [
+            { title: "01. 定时触发 (Schedule Trigger)", desc: "通过 Cron 或特定事件引擎（如每日 08:00）自动拉起流式任务，免去人工手动干预。" },
+            { title: "02. 资讯采集 (Data Ingestion)", desc: "通过 RSS / Web Scraping / API 抓取科技、跨境电商、财税及政策类实时源。" },
+            { title: "03. 信息标准化 (Normalization)", desc: "清洗 HTML 标签、格式化时间戳与源链接，将非结构化文本整理为统一 JSON Schema。" },
+            { title: "04. AI 资讯分析 (LLM Analysis)", desc: "调用 LLM 进行深度理解，提取关键词、行业类别及跨境业务相关度分数。" },
+            { title: "05. 高价值筛选 (Value Filter)", desc: "依据相关性得分与价值阈值过滤低质量/不相关资讯，实现高精度初筛。" },
+            { title: "06. AI 内容生成 (AI Content Gen)", desc: "自动撰写结构化摘要、商业影响评估及 3 个不同视角的小红书/公众号选题推荐。" },
+            { title: "07. 重复检测 (Deduplication)", desc: "基于向量余弦相似度或文本 MD5 算法比对近期已有记录，剔除同质化新闻。" },
+            { title: "08. 内容入库 (Database Ingestion)", desc: "将二次加工后的结构化高价值内容自动写入数据库，并实时推送提醒至运营团队。" }
+        ];
 
-            // Highlight clicked node border
-            for (let i = 0; i < 8; i++) {
-                const node = document.getElementById(`wf-node-${i}`);
-                if (node) {
-                    if (i === index) {
-                        node.classList.add('border-burgundy', 'bg-burgundy/10');
-                    } else {
-                        node.classList.remove('border-burgundy', 'bg-burgundy/10');
-                    }
-                }
-            }
-        }
+        function showNodeDetail(index) {
+            const data = nodeData[index];
+            if (!data) return;
+            const titleEl = document.getElementById('node-info-title');
+            const descEl = document.getElementById('node-info-desc');
+            if (titleEl) titleEl.innerText = data.title;
+            if (descEl) descEl.innerText = data.desc;
 
-        // Workflow Simulation runner
-        let simulationRunning = false;
-        function startWorkflowSimulation() {
-            if (simulationRunning) return;
-            simulationRunning = true;
+            // Highlight clicked node border
+            for (let i = 0; i < 8; i++) {
+                const node = document.getElementById(`wf-node-${i}`);
+                if (node) {
+                    if (i === index) {
+                        node.classList.add('border-burgundy', 'bg-burgundy/10');
+                    } else {
+                        node.classList.remove('border-burgundy', 'bg-burgundy/10');
+                    }
+                }
+            }
+        }
 
-            const logFeed = document.getElementById('log-feed');
-            const statusTag = document.getElementById('wf-status-tag');
-            const btn = document.getElementById('run-wf-btn');
+        // Workflow Simulation runner
+        let simulationRunning = false;
+        function startWorkflowSimulation() {
+            if (simulationRunning) return;
+            simulationRunning = true;
 
-            if (statusTag) {
-                statusTag.innerText = "RUNNING";
-                statusTag.className = "px-2 py-0.5 rounded bg-burgundy/20 text-burgundy font-semibold animate-pulse";
-            }
+            const logFeed = document.getElementById('log-feed');
+            const statusTag = document.getElementById('wf-status-tag');
+            const btn = document.getElementById('run-wf-btn');
 
-            if (btn) btn.disabled = true;
-            if (logFeed) logFeed.innerHTML = '';
+            if (statusTag) {
+                statusTag.innerText = "RUNNING";
+                statusTag.className = "px-2 py-0.5 rounded bg-burgundy/20 text-burgundy font-semibold animate-pulse";
+            }
 
-            const logs = [
-                "[08:00:00] [Cron] 触发器拉起：开始执行每日 AI 资讯工作流...",
-                "[08:00:01] [采集] 成功抓取 24 条最新行业新闻...",
-                "[08:00:02] [标准化] 数据清洗完毕，提取文本与源链接元数据...",
-                "[08:00:03] [AI分析] 调用 LLM 进行深度价值评分 (得分: 9/10)...",
-                "[08:00:04] [筛选] 命中高价值门槛：巴西关税新政通过...",
-                "[08:00:05] [AI生成] 自动生成 3 条精选选题建议与商业影响拆解...",
-                "[08:00:06] [去重] 向量数据库余弦相似度 0.12，无重复记录...",
-                "[08:00:07] [入库] 结构化写入数据库，推送至运营通知频道！"
-            ];
+            if (btn) btn.disabled = true;
+            if (logFeed) logFeed.innerHTML = '';
 
-            let step = 0;
-            const interval = setInterval(() => {
-                if (step < logs.length) {
-                    // Log output
-                    if (logFeed) {
-                        const div = document.createElement('div');
-                        div.className = "text-emerald-400 font-mono text-[11px] animate-fadeIn";
-                        div.innerText = logs[step];
-                        logFeed.appendChild(div);
-                        logFeed.scrollTop = logFeed.scrollHeight;
-                    }
+            const logs = [
+                "[08:00:00] [Cron] 触发器拉起：开始执行每日 AI 资讯工作流...",
+                "[08:00:01] [采集] 成功抓取 24 条最新行业新闻...",
+                "[08:00:02] [标准化] 数据清洗完毕，提取文本与源链接元数据...",
+                "[08:00:03] [AI分析] 调用 LLM 进行深度价值评分 (得分: 9/10)...",
+                "[08:00:04] [筛选] 命中高价值门槛：巴西关税新政通过...",
+                "[08:00:05] [AI生成] 自动生成 3 条精选选题建议与商业影响拆解...",
+                "[08:00:06] [去重] 向量数据库余弦相似度 0.12，无重复记录...",
+                "[08:00:07] [入库] 结构化写入数据库，推送至运营通知频道！"
+            ];
 
-                    // Highlight node
-                    showNodeDetail(step);
+            let step = 0;
+            const interval = setInterval(() => {
+                if (step < logs.length) {
+                    // Log output
+                    if (logFeed) {
+                        const div = document.createElement('div');
+                        div.className = "text-emerald-400 font-mono text-[11px] animate-fadeIn";
+                        div.innerText = logs[step];
+                        logFeed.appendChild(div);
+                        logFeed.scrollTop = logFeed.scrollHeight;
+                    }
 
-                    step++;
-                } else {
-                    clearInterval(interval);
-                    simulationRunning = false;
-                    if (statusTag) {
-                        statusTag.innerText = "COMPLETED";
-                        statusTag.className = "px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold";
-                    }
-                    if (btn) btn.disabled = false;
-                }
-            }, 800);
-        }
-    </script>
+                    // Highlight node
+                    showNodeDetail(step);
+
+                    step++;
+                } else {
+                    clearInterval(interval);
+                    simulationRunning = false;
+                    if (statusTag) {
+                        statusTag.innerText = "COMPLETED";
+                        statusTag.className = "px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold";
+                    }
+                    if (btn) btn.disabled = false;
+                }
+            }, 800);
+        }
+    </script>
 </body>
 </html>
+        // Node details data array updated according to user's n8n workflow image
+        const nodeData = [
+            { 
+                title: "01. Schedule Trigger (定时触发器)", 
+                desc: "按设定周期自动触发工作流（对应截图中的 Start / Schedule Trigger 节点），向并行 RSS 节点发送拉取指令。" 
+            },
+            { 
+                title: "02. Read RSS Feeds & Merge (多源采集与合并)", 
+                desc: "并行抓取 MercadoEConsumo (10 items) 与 El Economista (100 items) 的 Feed 资讯，经 Merge 节点合并出 110 项原始文章数据。" 
+            },
+            { 
+                title: "03. Normalize Articles (数据标准化)", 
+                desc: "通过 JavaScript / Code 节点对 110 项文本数据清洗 HTML 标签，统一文章标题、发布日期、链接与正文结构。" 
+            },
+            { 
+                title: "04. Analyze Article (OpenAI 智能分析)", 
+                desc: "调用 OpenAI 大模型对 110 项文章进行批量语义分析，评估其商业价值、相关度评分并返回结构化分析 JSON。" 
+            },
+            { 
+                title: "05. Filter Worthy Articles (高价值资讯初筛)", 
+                desc: "配置条件过滤节点，剔除低相关性资讯。110 项候选文章经 Filter 筛选后，精准保留 33 项高价值核心文章 (Kept: 33 items)。" 
+            },
+            { 
+                title: "06. Generate Content (OpenAI 内容二次生成)", 
+                desc: "将筛选出的 33 项核心文章二次输入 OpenAI，自动提炼中文摘要、商业影响拆解及 3 个选题切入点，并完成数据 Merge。" 
+            },
+            { 
+                title: "07. If Row Does Not Exist (数据库排重校验)", 
+                desc: "查询现有知识库/表格，比对文章唯一标识符。若数据不存在，则分流至写入节点，防止重复推送。" 
+            },
+            { 
+                title: "08. Insert Row & Write to Feishu (多端同步与通知)", 
+                desc
